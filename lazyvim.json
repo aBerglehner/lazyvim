@@ -1,14 +1,17 @@
 {
   "extras": [
     "lazyvim.plugins.extras.editor.harpoon2",
+    "lazyvim.plugins.extras.editor.refactoring",
+    "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.java",
     "lazyvim.plugins.extras.lang.sql",
     "lazyvim.plugins.extras.lang.yaml",
     "lazyvim.plugins.extras.lsp.neoconf",
     "lazyvim.plugins.extras.lsp.none-ls"
   ],
+  "install_version": 7,
   "news": {
-    "NEWS.md": "7107"
+    "NEWS.md": "10960"
   },
-  "version": 7
+  "version": 8
 }

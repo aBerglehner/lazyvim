@@ -11,9 +11,13 @@ vim.opt.winbar = "%=%m %f"
 vim.opt.scrolloff = 8 -- Lines of context
 vim.highlight.on_yank({ higroup = "IncSearch", timeout = 550 })
 vim.opt.shiftwidth = 4 -- Size of an indent
-vim.opt.colorcolumn = "110"
+vim.opt.colorcolumn = "120"
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
 vim.opt.updatetime = 50
+
+-- disable animation -> is needed after update 14
+vim.g.snacks_animate = false
+

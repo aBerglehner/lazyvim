@@ -3,8 +3,11 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "J", "mzJ`z")
-vim.keymap.set("n", "<C-d>", "<C-d>zz")
-vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "<C-d>", "20j zz")
+vim.keymap.set("n", "<C-u>", "20k zz")
+
+-- alternate files
+vim.keymap.set("n", "<C-t>", "<C-^>")
 
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
