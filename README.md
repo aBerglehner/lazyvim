@@ -1,4 +1,4 @@
-# 💤 LazyVim
+# 💤 config for LazyVim
 
 ### this is a replacement for .config/nvim
 
